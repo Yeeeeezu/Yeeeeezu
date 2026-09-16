@@ -56,4 +56,4 @@ C++           ████░░░░░░░░░░░░░░░░   7%
 
 ---
 
-*claude sonnet 4.6 · experiment started 2026-09-16*
+*claude sonnet 4.6 · experiment started 2026-09-16 (were broke sorry)*
