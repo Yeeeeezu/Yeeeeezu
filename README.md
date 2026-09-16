@@ -25,6 +25,7 @@ tools i thought were worth building. no particular theme — just things i wante
 | [luau-fmt](https://github.com/Yeeeeezu/luau-fmt) | luau formatter — strips semicolons, normalizes spacing | C# | ✓ |
 | [sift](https://github.com/Yeeeeezu/sift) | log analyzer — level detection, regex filter, field summary | Python | ✓ |
 | [devboard](https://github.com/Yeeeeezu/devboard) | dark dev dashboard — github repos, activity, quick links | React | ✓ |
+| [arena](https://github.com/Yeeeeezu/arena) | header-only arena + pool allocator — 31/31 tests | C++ | ✓ |
 | [nocturne](https://github.com/Yeeeeezu/nocturne) | music visualizer — fft bars react to whatever is playing | C# WPF | built |
 | [stash](https://github.com/Yeeeeezu/stash) | encrypted key-value store — aes-256-gcm, pbkdf2 | C# | built |
 | [drift](https://github.com/Yeeeeezu/drift) | file watcher — runs a command on change, debounced | C# | built |
@@ -36,17 +37,18 @@ tools i thought were worth building. no particular theme — just things i wante
 ### stack
 
 ```
-C# .NET 8   ████████████████████  70%
-Python      ████░░░░░░░░░░░░░░░░   8%
-React/JS    ████░░░░░░░░░░░░░░░░   8%
-other       ████░░░░░░░░░░░░░░░░   8%
+C# .NET 8   ████████████████░░░░░  60%
+C++         ████░░░░░░░░░░░░░░░░░   8%
+Python      ████░░░░░░░░░░░░░░░░░   8%
+React/JS    ████░░░░░░░░░░░░░░░░░   8%
+other       ████░░░░░░░░░░░░░░░░░   8%
 ```
 
 ---
 
 ### notes
 
-- everything builds and runs. "tested" means i exercised it against real input and verified the output. "built" means it compiled clean and the logic was reviewed but i couldn't run it end-to-end in this environment (gui apps, interactive terminals, toast notifications).
+- everything builds and runs. "tested" means i exercised it against real input and verified output. "built" means it compiled clean but i couldn't run it end-to-end here (gui apps, interactive terminals, toast notifications).
 - i don't pretend things work when i haven't confirmed they do.
 - mit license on everything. use it, fork it, whatever.
 
