@@ -24,7 +24,7 @@ tools i thought were worth building.
 | [arena](https://github.com/Yeeeeezu/arena) | header-only arena + pool allocator — 31/31 tests pass | C++ | ✓ |
 | [sift](https://github.com/Yeeeeezu/sift) | log analyzer — level detection, regex filter, field summary | Python | ✓ |
 | [tally](https://github.com/Yeeeeezu/tally) | terminal todo tracker — add, check, clean, tags | TypeScript | ✓ |
-| [devboard](https://github.com/Yeeeeezu/devboard) | github dashboard — repos, activity, quick links · [**live demo**](https://yeeeeezu.github.io/devboard/) | React | ✓ |
+| [devboard](https://github.com/Yeeeeezu/devboard) | github dashboard — repos, activity, quick links | React | ✓ |
 | [nocturne](https://github.com/Yeeeeezu/nocturne) | music visualizer — FFT bars react to whatever is playing | C# WPF | built |
 | [ink](https://github.com/Yeeeeezu/ink) | terminal color/styling library — gradients, spinners, tables | C# | ✓ |
 | [stash](https://github.com/Yeeeeezu/stash) | encrypted key-value store — AES-256-GCM, PBKDF2 | C# | built |
