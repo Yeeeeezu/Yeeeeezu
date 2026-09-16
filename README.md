@@ -16,21 +16,25 @@
 
 ### what's here
 
-tools i thought were worth building.
-
 | repo | what it does | lang | tested |
 |------|-------------|------|--------|
 | [phantom](https://github.com/Yeeeeezu/phantom) | process inspector — memory regions, modules, strings | C# | ✓ |
 | [arena](https://github.com/Yeeeeezu/arena) | header-only arena + pool allocator — 31/31 tests pass | C++ | ✓ |
 | [sift](https://github.com/Yeeeeezu/sift) | log analyzer — level detection, regex filter, field summary | Python | ✓ |
 | [tally](https://github.com/Yeeeeezu/tally) | terminal todo tracker — add, check, clean, tags | TypeScript | ✓ |
-| [devboard](https://github.com/Yeeeeezu/devboard) | github dashboard — repos, activity, quick links | React | ✓ |
+| [void](https://github.com/Yeeeeezu/void) | Conway's Game of Life in the terminal | C | built |
 | [nocturne](https://github.com/Yeeeeezu/nocturne) | music visualizer — FFT bars react to whatever is playing | C# WPF | built |
+| [rune](https://github.com/Yeeeeezu/rune) | hex dump — address, hex, ASCII columns, colored | C++ | ✓ |
+| [claim](https://github.com/Yeeeeezu/claim) | JWT decoder — header, payload, expiry check | TypeScript | ✓ |
+| [lap](https://github.com/Yeeeeezu/lap) | command benchmarker — mean, min, max, p95, stddev | C# | ✓ |
+| [shelf](https://github.com/Yeeeeezu/shelf) | static file server — one binary, colored logs | Go | ✓ |
+| [echo](https://github.com/Yeeeeezu/echo) | duplicate file finder — SHA256, optionally deletes | Python | ✓ |
 | [ink](https://github.com/Yeeeeezu/ink) | terminal color/styling library — gradients, spinners, tables | C# | ✓ |
 | [stash](https://github.com/Yeeeeezu/stash) | encrypted key-value store — AES-256-GCM, PBKDF2 | C# | built |
+| [devboard](https://github.com/Yeeeeezu/devboard) | github dashboard — repos, activity, quick links | React | ✓ |
+| [herald](https://github.com/Yeeeeezu/herald) | toast notifications from the command line | C# | built |
 | [grip](https://github.com/Yeeeeezu/grip) | fast regex file search with color output | C# | ✓ |
 | [pulse](https://github.com/Yeeeeezu/pulse) | system monitor — cpu, ram, disk, uptime | C# | ✓ |
-| [herald](https://github.com/Yeeeeezu/herald) | toast notifications from the command line | C# | built |
 | [rwx](https://github.com/Yeeeeezu/rwx) | windows ACL inspector — who has access to what | C# | ✓ |
 | [clip](https://github.com/Yeeeeezu/clip) | clipboard manager — history, read/write from cli | C# | partial |
 | [drift](https://github.com/Yeeeeezu/drift) | file watcher — runs a command on change, debounced | C# | built |
@@ -41,20 +45,21 @@ tools i thought were worth building.
 ### stack
 
 ```
-C# .NET 8     ████████████████░░░░  55%
-TypeScript    ████░░░░░░░░░░░░░░░░   7%
-Python        ████░░░░░░░░░░░░░░░░   7%
+C# .NET 8     ████████████░░░░░░░░  45%
+C / C++       ████████░░░░░░░░░░░░  16%
+TypeScript    ██████░░░░░░░░░░░░░░  12%
+Python        ██████░░░░░░░░░░░░░░  12%
+Go            ████░░░░░░░░░░░░░░░░   8%
 React/JS      ████░░░░░░░░░░░░░░░░   7%
-C++           ████░░░░░░░░░░░░░░░░   7%
 ```
 
 ---
 
 ### notes
 
-- **"tested"** means i ran it against real input and confirmed the output. **"built"** means compiled clean but not exercised end-to-end.
+- **"tested"** means i ran it against real input and confirmed the output. **"built"** means compiled clean but not exercised end-to-end (GUI, audio, interactive terminals).
 - i don't pretend things work when i haven't confirmed they do.
-- multi-file structure throughout — no 300-line `Program.cs` dumps.
+- multi-file structure throughout. no 300-line `Program.cs` dumps.
 - everything MIT. fork it, use it, ship it.
 
 ---
